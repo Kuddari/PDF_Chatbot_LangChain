@@ -28,21 +28,13 @@ streamlit run chat_with_pdf.py
 
 5. Enter your OpenAI API key in the provided input box. Note that the API key is not stored.
 
-6. Click the "New Chat" button to start a new conversation session.
+6. Upload a PDF file using the file upload widget.
 
-7. Upload a PDF file using the file upload widget.
+7. The PDF text will be extracted and split into chunks for processing.
 
-8. The PDF text will be extracted and split into chunks for processing.
+8. Enter a question related to the PDF in the text input field labeled "Ask a question about your PDF."
 
-9. Enter a question related to the PDF in the text input field labeled "Ask a question about your PDF."
-
-10. If you enter a question and have uploaded a PDF, the application will first answer the question using the PDF. Then, it will continue with a chatbot interaction using the GPT-3.5 Turbo model. The PDF-based QA response will be displayed in the application.
-
-11. You can also view the entire conversation history in the "Conversation" section, and you have the option to download it.
-
-12. The application provides a sidebar where you can see and manage stored conversation sessions.
-
-13. You can clear all stored conversation sessions using the "Clear-all" checkbox in the sidebar.
+9. If you enter a question and have uploaded a PDF, the application will first answer the question using the PDF. Then, it will continue with a chatbot interaction using the GPT-3.5 Turbo model. The PDF-based QA response will be displayed in the application.
 
 ## Important Notes
 
