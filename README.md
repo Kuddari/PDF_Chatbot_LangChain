@@ -2,12 +2,13 @@
 
 This is a Streamlit application that allows users to upload a PDF file and query it for answers using OpenAI's GPT-3.5 Turbo model and LangChain. The code extracts text from the PDF, splits it into chunks, creates embeddings, and performs similarity search to answer questions.
 
-## Requirements
+## Requirement tools
 
 - Python 3.7+
 - [Streamlit](https://www.streamlit.io/)
-- [PyPDF2](https://pythonhosted.org/PyPDF2/)
-- [LangChain](https://github.com/der-menschenfresser/langchain)
+- [PyPDF2](https://pypdf2.readthedocs.io/)
+- [LangChain](https://python.langchain.com/)
+- [OpenAi Api](https://platform.openai.com/docs/api-reference)
 
 Make sure to install these libraries before running the code.
 
