@@ -1,5 +1,4 @@
 # PDF_Chatbot_LangChain
-Sure, here's an explanation of the code as if it were written in a README file:
 
 # Chat with PDF: A Streamlit Application
 
